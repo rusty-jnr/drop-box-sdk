@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/index.css" />
+    <title>Home</title>
+  </head>
+  <body>
+    <div class="Home">
+      <form class="root-path-wrap js-root-path__form">
+        <h2><label for="root-path"> Folder Path</label></h2>
+        <input
+          type="text"
+          name="root-path"
+          id="root-path"
+          class="js-root-path__input"
+          value="/"
+        />
+        <button aria-label="Load path" class="dbx-btn" type="submit">
+          &rarr;
+        </button>
+      </form>
+      <ul class="fLists" id="js-file-list"></ul>
+      <button class="logout" id="logout">
+        Logout
+      </button>
+    </div>
+    <script src="../js/bundle.js" charset="utf-8"></script>
+  </body>
+</html>

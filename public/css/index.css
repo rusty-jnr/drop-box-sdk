@@ -1,0 +1,130 @@
+:root {
+  --blue: #0061ff;
+  --stone: #D0D0D2;
+}
+
+.authorization {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.authorization a {
+  text-decoration: none;
+  padding: 15px 10px;
+  border-radius: 5px;
+  background-color: #0061fe;
+  color: #ffffff;
+  min-width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins";
+}
+.authorization a svg {
+  margin-left: 10px;
+}
+
+/* auth */
+.auth {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.auth .access {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#accessText {
+  font-family: "Poppins";
+}
+.auth .access button {
+  padding: 15px 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #0061fe;
+  color: #ffffff;
+  min-width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins";
+}
+
+/* home */
+.Home {
+  font-family: sans-serif;
+}
+.Home ul.fLists {
+  list-style: none;
+  padding: 0px 50px;
+}
+.Home ul.fLists li {
+  margin: 10px 0px;
+  padding: 5px 0px;
+  border-bottom: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Poppins";
+}
+.Home ul.fLists li img {
+  margin-right: 10px;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+}
+.Home ul.fLists li a {
+  display: flex;
+  align-items: center;
+  color: #000;
+  font-family: "Poppins";
+}
+.sec_1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Home button.logout {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1;
+  padding: 20px 15px;
+  border: none;
+  cursor: pointer;
+  background-color: #0061fe;
+  color: #ffffff;
+  min-width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins";
+}
+
+.root-path-wrap {
+  margin: 1rem auto;
+  text-align: center;
+}
+.root-path-wrap input {
+  border: 1px solid var(--stone);
+  font-size: 14px;
+  padding: 10px;
+  width: 300px;
+  border-radius: 24px;
+  font-family: "Poppins";
+}
+.root-path-wrap button{
+  border: 1px solid var(--stone);
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
